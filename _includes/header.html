@@ -13,10 +13,9 @@
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav navbar-right main-nav">
-					<li><a href="#intro">Home</a></li>
-					<li><a href="#vission">Vission</a></li>
-					<li><a href="#services">Service</a></li>
-					<li><a href="#inspirations">Inspirations</a></li>
+					 {% for item in site.data.settings.menu %}
+          <li><a href="{{ item.url }}">{{ item.name }}</a></li> 
+        {% endfor %}
 					<li><a href="#contact" class="btn btn-blue">Contact</a></li>
 				</ul>
 			</div>
@@ -30,9 +29,9 @@
 				<div class="header-text">
 					<div class="row">
 						<div class="col-md-12 text-center">
-							<h1 class="white typed">Sarayu Services For Children</h1>
+							<h1 class="white typed">{{site.data.settings.title}}</h1>
 							<span class="typed-cursor">|</span>
-							<h3 class="light white">Service with smile <i class="fa fa-smile-o fa-lg" aria-hidden="true"></i></h3>		
+							<h3 class="light white">{{site.data.settings.description}}&nbsp;<i class="fa fa-smile-o fa-lg" aria-hidden="true"></i></h3>		
 						</div>
 					</div>
 				</div>

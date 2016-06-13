@@ -539,7 +539,7 @@ footer .social-footer li:hover a {
 	width: 100%;
 	padding: 15px 0;
 	color: #fff;
-	background: #00a8ff;
+	background: rgba(22,160,133 ,1) ;
 }
 
 .row.title {

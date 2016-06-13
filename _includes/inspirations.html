@@ -3,31 +3,13 @@
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
 					<div class="owl-twitter owl-carousel">
+					{% for item in site.data.settings.quotes %}
 						<div class="item text-center">
 							<i class="icon fa fa-quote-left fa-4x"></i>
-							<h4 class="white light">"If you can't feed a hundred people, then feed just one."</h4>
-							<h4 class="light-white light">#motherTeresa</h4>
+							<h4 class="white light">{{item.data}}</h4>
+							<h4 class="light-white light">#{{item.author}}</h4>
 						</div>
-						<div class="item text-center">
-							<i class="icon fa fa-quote-left fa-4x"></i>
-							<h4 class="white light">No man is so poor as to have nothing worth giving. Give what you have. To someone it may be better than you dare to think</h4>
-							<h4 class="light-white light">#Henry Wadsworth Longfellow</h4>
-						</div>
-						<div class="item text-center">
-							<i class="icon fa fa-quote-left fa-4x"></i>
-							<h4 class="white light">Love heals people-- both the ones who give it and the ones who receive it.</h4>
-							<h4 class="light-white light">#Karl Menninger</h4>
-						</div>
-						<div class="item text-center">
-							<i class="icon fa fa-quote-left fa-4x"></i>
-							<h4 class="white light">Children will not remember you for the material things you provided, but for the feeling that you cherished them</h4>
-							<h4 class="light-white light">#Richard Evans</h4>
-						</div>
-						<div class="item text-center">
-							<i class="icon fa fa-quote-left fa-4x"></i>
-							<h4 class="white light">Love is a wonderful thing. You never have to take it away from one person to give it to another. There's always more than enough to go around.</h4>
-							<h4 class="light-white light">#Pamela deRoy</h4>
-						</div>
+					{% endfor %}	 
 					</div>
 				</div>
 			</div>
