@@ -425,6 +425,7 @@ footer {
 	background: url('../img/h1.jpg');
 	-webkit-background-size: cover;
 	background-size: cover;
+	position: relative;
 }
 
 footer .trial-button {
@@ -440,7 +441,7 @@ footer .open-blink {
 	height: 14px;
 	margin: 0 20px;
 	border-radius: 50%;
-	background-color: #4caf50;
+	background-color: rgba(231,76,60 ,1);
 	-webkit-animation-name: flash;
 	animation-name: flash;
 	-webkit-animation-duration: 1s;
@@ -459,7 +460,7 @@ footer .open-blink:before {
 	height: 30px;
 	opacity: 0.1;
 	border-radius: 50%;
-	background-color: #4caf50;
+	background-color: rgba(231,76,60 ,1);
 }
 
 footer .opening-hours {
@@ -486,7 +487,7 @@ footer .social-footer li a {
 }
 
 footer .social-footer li:hover a {
-	color: #00a8ff;
+	color: rgba(231,76,60 ,1);
 }
  
 /* Mobile Nav */
