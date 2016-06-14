@@ -64,7 +64,7 @@ h6 {
 }
 
 h1 {
-	font-size: 60px;
+	font-size: 80px;
 }
 
 h2 {
@@ -113,8 +113,8 @@ header {
 	position: relative;
 	width: 100%;
 	color: white;
-	background: rgba(22,160,133 ,1);
-	background: url('../img/h1.jpg');
+	background: rgba(231,76,60 ,1);
+	background: url('../img/h3.png');
 	background-size: cover;
 }
 
@@ -131,7 +131,7 @@ header .header-text {
 	display: table-cell;
 	text-align: center;
 	vertical-align: middle;
-	color: white;
+	color:rgba(231,76,60 ,1);
 }
 
 header .typed {
@@ -143,7 +143,7 @@ header .typed-cursor {
 	font-size: 60px;
 	display: inline-block;
 	margin: 0 10px;
-	color: rgba(22,160,133 ,1);
+	color: rgba(231,76,60 ,1);
 	-webkit-animation-name: flash;
 	animation-name: flash;
 	-webkit-animation-duration: 1s;
@@ -154,7 +154,7 @@ header .typed-cursor {
 
 a {
 	text-decoration: none;
-	color: rgba(22,160,133 ,1);
+	color: rgba(231,76,60 ,1);
 	-webkit-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 }
@@ -170,7 +170,7 @@ nav.navbar {
 }
 
 nav.navbar .navbar-nav li.active a:not(.btn) {
-	color:rgba(22,160,133 ,1) !important;
+	color:rgba(231,76,60 ,1) !important;
 }
 
 nav.navbar-fixed-top {
@@ -209,16 +209,16 @@ nav.navbar-fixed-top .navbar-nav > li > a:not(.btn) {
 }
 
 .btn.btn-blue {
-	background: rgba(22,160,133 ,1);
+	background: rgba(231,76,60 ,1);
 }
 
 .btn.btn-blue:hover {
-	background: rgba(22,160,133 ,0.6);
+	background: rgba(231,76,60 ,0.6);
 }
 
 .btn.btn-blue-fill {
-	color: rgba(22,160,133 ,1);
-	border-color: rgba(22,160,133 ,1);
+	color: rgba(231,76,60 ,1);
+	border-color: rgba(231,76,60 ,1);
 	background: transparent;
 }
 
@@ -312,7 +312,7 @@ section {
 }
 
  .b{
- 	color:rgba(22,160,133 ,0.78);
+ 	color:rgba(231,76,60 ,0.8);
  }
 
 .services {
@@ -422,7 +422,7 @@ section {
 
 footer {
 	padding: 140px 0 40px;
-	background: url('../img/footer.jpg');
+	background: url('../img/h1.jpg');
 	-webkit-background-size: cover;
 	background-size: cover;
 }
@@ -539,7 +539,7 @@ footer .social-footer li:hover a {
 	width: 100%;
 	padding: 15px 0;
 	color: #fff;
-	background: rgba(22,160,133 ,1) ;
+	background: rgba(231,76,60 ,1);
 }
 
 .row.title {
@@ -576,11 +576,11 @@ footer .social-footer li:hover a {
 }
 
 .blue {
-	color: rgba(22,160,133 ,1);
+	color: rgba(231,76,60 ,1);
 }
 
 .blue-bg {
-	background: rgba(22,160,133 ,1);
+	background: rgba(231,76,60 ,1);
 }
 
 .muted {
@@ -672,6 +672,20 @@ footer .social-footer li:hover a {
 }
 
 
+
+/*tranparent-box*/
+
+.transparent-box{
+	position: absolute;
+	height: 100%;
+	width:100%;
+	background: rgba(0,0,0,0.6);
+ 
+}
+
+.orange{
+	color:  rgba(231,76,60 ,1);
+}
 
 
 
