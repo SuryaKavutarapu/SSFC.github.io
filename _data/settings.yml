@@ -1,7 +1,7 @@
 #general site settings
 title: Sarayu Services For Children
 description: Service With Smile
-email: devtipsfordesigners@gmail.com
+email:  @gmail.com
 
 
 #menu settings
@@ -18,8 +18,8 @@ menu:
 #seo content  
 seo:
   description: ' we care for such children by giving our helping hand for their livelyhood and encouraging them in each any every aspect to achieve their dreams in real life'
-  rel-author: 'https://plus.google.com/u/0/+DevTipsForDesigners/'
-  rel-publisher: 'https://plus.google.com/u/0/+DevTipsForDesigners/'
+  rel-author: 'http://suryakavutarapu.wordpress.com'
+  rel-publisher: 'http://www.github.com/SuryaKavutarapu' 
 
 
 
