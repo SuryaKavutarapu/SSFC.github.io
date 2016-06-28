@@ -11,10 +11,10 @@ menu:
 - {name: Vission, url: '#vission'}
 - {name: Services, url: '#services'}
 - {name: Inspirations, url: '#inspirations'}
+ 
 
 
-
-#seo content  
+#seo content
 seo:
   description: ' we care for such children by giving our helping hand for their livelyhood and encouraging them in each any every aspect to achieve their dreams in real life'
   rel-author: 'http://suryakavutarapu.wordpress.com'
@@ -29,13 +29,13 @@ vissionp2: >
     "The hearts of small children are delicate organs.A cruel beginning in this world can twist them into curious shapes.The heart of a hurt child can shrink so that forever afterward it is hard and pitted as the seed of a peach.Or again,the heart of such a child may fester and swell until it is misery to carry within the body, easily chafed and hurt by the most ordinary things.
      -- Carson Smith "
 
-vissionp3: > 
+vissionp3: >
    "It is not the physical pain that endangers orphans the most. It is the mental pain caused by stress from years and years of being neglected,pushed aside, disregarded, unloved, and made to feel undeserving, and in almost all cases, made to feel like a possession rather than an equal human being. Even more it is the lack of unconditional love, the right to be accepted, as a child and to be loved, as a child, no matter what you do is the most wounding"
 
 
 #services
 
-service:   > 
+service:   >
   "We care for the children who lost their life away from their parents and just born babies who left because of their family situations. we care for such children by giving our helping hand for their livelyhood and encouraging them in each any every aspect to achieve their dreams in real life.Every children is not poor by birth,their conditions and environment among them makes poor.we give helping hand for them and guide them to know what is going to be in future and making them to meet their challenges in their own life. We may not not help hundrends of children but a helping hand in a right situation gives a lot for their lively hood.we don't need any of our financial support we just need the same helping hand from your side by giving the linformation or location of such a children if u find any where around ur premises."
 
 
@@ -43,7 +43,7 @@ service:   >
 #---quotes--
 
 
-quotes: 
+quotes:
  - {data: "If you can't feed a hundred people,then feed just one.", author: "Mother Teresa" }
  - {data: "No man is so poor as to have nothing worth giving. Give what you have. To someone it may be better than you dare to think", author: "Henry Wadsworth Longfellow" }
  - {data: "Love heals people-- both the ones who give it and the ones who receive it." , author: "Karl Menninger" }
